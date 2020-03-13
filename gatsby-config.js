@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `KevanSizemore.com`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Kevan M. Sizemore`,
+      summary: `Technologist. Educator. Storyteller. Lifelong Learner.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `This site is a great place to learn more about me, some of my creative or technical projects, publications, and social networks.`,
+    siteUrl: `https://kevansizemore.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `KevanSizemore`,
     },
   },
   plugins: [
