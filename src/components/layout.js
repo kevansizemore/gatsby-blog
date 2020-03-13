@@ -11,8 +11,9 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h1
         style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
+          ...scale(1.2),
+          fontFamily: `sans-serif`,
+          marginBottom: rhythm(1.2),
           marginTop: 0,
         }}
       >
@@ -32,7 +33,7 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h3
         style={{
-          fontFamily: `Montserrat, sans-serif`,
+          fontFamily: `sans-serif`,
           marginTop: 0,
         }}
       >
