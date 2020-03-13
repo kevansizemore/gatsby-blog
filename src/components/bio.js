@@ -56,13 +56,8 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
-        Written by <strong>{author.name}</strong> {author.summary}
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
-      </p>
+      <p>Written by <strong>{author.name}</strong><br />{author.summary}</p>
+      <p><a href={`https://twitter.com/${social.twitter}`}>You can follow him on Twitter.</a></p>
     </div>
   )
 }
