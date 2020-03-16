@@ -17,7 +17,8 @@ const NavMenu = () => {
       }}
     >
       <Link style={navStyle} to="/">About</Link>&nbsp;&nbsp;{' | '}&nbsp;&nbsp;
-      <Link style={navStyle} to="/blog/">Blog</Link>
+      <Link style={navStyle} to="/blog/">Blog</Link>&nbsp;&nbsp;{' | '}&nbsp;&nbsp;
+      <Link style={navStyle} to="/things/">Things</Link>
       <Search />
     </div>
   )
