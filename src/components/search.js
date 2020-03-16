@@ -7,15 +7,14 @@ const searchStyle = {
 }
 
 const searchInputStyle = {
-  width: '80%',
+  width: '70%',
   border: '1px solid #808080',
   borderRadius: '3px',
   paddingLeft: '5px'
 }
 
 const searchButtonStyle = {
-  width: '18%',
-  fontWeight: 'bold',
+  width: '28%',
   background: '#007acc',
   color: '#ffffff',
   border: 'none',
