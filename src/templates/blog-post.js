@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
+import NavMenu from "../components/nav"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
@@ -17,10 +18,13 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
+      <NavMenu />
       <article>
         <header>
           <h1
             style={{
+              fontFamily: `sans-serif`,
+              ...scale(.80),
               marginTop: rhythm(1),
               marginBottom: 0,
             }}
@@ -38,11 +42,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
         <footer>
           <Bio />
         </footer>

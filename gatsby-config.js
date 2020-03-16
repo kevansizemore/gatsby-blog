@@ -8,6 +8,8 @@ module.exports = {
     description: `This site is a great place to learn more about me, some of my creative or technical projects, publications, and social networks.`,
     siteUrl: `https://kevansizemore.com/`,
     social: {
+      email: 'kevan.sizemore@gmail.com',
+      linkedin: 'kevanmsizemore',
       twitter: `KevanSizemore`,
     },
   },
@@ -15,7 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
+        path: `${__dirname}/content/blog_articles`,
         name: `blog`,
       },
     },
@@ -76,8 +78,5 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }

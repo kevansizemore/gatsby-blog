@@ -1,18 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import { rhythm, scale } from "../utils/typography"
 
-const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
+
+const Layout = ({ location, title, author, children }) => {
   let header
 
   header = (
     <h1
       style={{
-        ...scale(1.2),
+        ...scale(1.125),
         fontFamily: `sans-serif`,
-        marginBottom: rhythm(1.2),
+        marginBottom: rhythm(0.1),
         marginTop: 0,
       }}
     >
@@ -41,9 +40,9 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <hr />
+        Copyright © {new Date().getFullYear()} {author}. All rights reserved.{' '}
+        Built with <a href="https://www.gatsbyjs.org" target="_blank" rel="noopener noreferrer">Gatsby</a>.
       </footer>
     </div>
   )
