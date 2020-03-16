@@ -6,6 +6,7 @@ import Search from "../components/search"
 const navStyle = {
   ...scale(0.35),
   fontFamily: `sans-serif`,
+  textDecoration: `none`,
   boxShadow: 'none',
 }
 
