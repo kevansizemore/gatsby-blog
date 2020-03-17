@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
 import Bio from "../components/bio"
 import NavMenu from "../components/nav"
 import Layout from "../components/layout"
@@ -11,7 +10,7 @@ const tagStyle = {
   display: "inline-block",
   marginLeft: "0px",
   marginBottom: "2px",
-  paddingRight: "6px"
+  paddingRight: "8px"
 }
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
@@ -52,8 +51,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               marginBottom: rhythm(1),
             }}
           >
-            {post.frontmatter.date}<br />
-            Tagged with: <ul style={tagStyle}>{postTags}</ul>
+            {post.frontmatter.date}{' | '}Tagged with: <ul style={tagStyle}>{postTags}</ul>
           </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />

@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
 import Bio from "../components/bio"
 import NavMenu from "../components/nav"
 import Layout from "../components/layout"
@@ -11,7 +10,7 @@ const tagStyle = {
   display: "inline-block",
   marginLeft: "0px",
   marginBottom: "2px",
-  paddingRight: "6px"
+  paddingRight: "8px"
 }
 
 const BlogIndex = ({ data, location }) => {
@@ -35,19 +34,9 @@ const BlogIndex = ({ data, location }) => {
 
         return (
           <article key={node.fields.slug}>
-            <header>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small><br />
-              <small>Tagged with: <ul style={tagStyle}>{postTags}</ul></small>
-              <Link style={{ boxShadow: `none` }} to={node.frontmatter.tags}></Link>
+            <header style={{marginBottom: rhythm(1 / 4)}}>
+              <h3 style={{marginBottom: rhythm(1 / 4)}}><Link style={{ boxShadow: `none` }} to={node.fields.slug}>{title}</Link></h3>
+              <small>{node.frontmatter.date}{' | '}Tagged with: <ul style={tagStyle}>{postTags}</ul></small>
             </header>
             <section>
               <p
