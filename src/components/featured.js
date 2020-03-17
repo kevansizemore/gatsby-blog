@@ -4,7 +4,7 @@ import { rhythm } from "../utils/typography"
 
 const Featured = () => {
 
-const featuredTags = ["cheese", "test"]
+const featuredTags = ["technology", "photography"]
 
   return (
     <div style={{marginBottom: rhythm(1.5)}}>
@@ -14,7 +14,7 @@ const featuredTags = ["cheese", "test"]
         <ul>
         {featuredTags.map(tag => (
           <li key={tag}>
-            <Link to={`/tags/${tag}/`}>{tag}</Link>
+            <Link to={`/tags/${tag}/`}>#{tag}</Link>
           </li>
         ))}
         </ul>

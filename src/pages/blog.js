@@ -32,7 +32,7 @@ const BlogIndex = ({ data, location }) => {
 
         if(node.frontmatter.tags && node.frontmatter.tags.length){
           postTags = node.frontmatter.tags.map((tags) => 
-          <li style={tagStyle}><Link to={`/tags/${tags}/`}>{tags}</Link></li>
+          <li style={tagStyle}><Link to={`/tags/${tags}/`}>#{tags}</Link></li>
           );
         }
 

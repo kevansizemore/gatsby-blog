@@ -22,14 +22,11 @@ const TagsPage = ({
     <NavMenu />
     <div>
       <h2>Tag Index</h2>
-      <p>There are <strong>{group.length}</strong> tags used throughout this blog.</p>
+      <p>Currently, there are {group.length} tags used throughout this blog.</p>
       <ul>
         {group.map(tag => (
           <li key={tag.fieldValue}>
-            <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-              {tag.fieldValue} ({tag.totalCount})
-            </Link>
-          </li>
+            <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>#{tag.fieldValue}</Link>{' '}({tag.totalCount})</li>
         ))}
       </ul>
     </div>

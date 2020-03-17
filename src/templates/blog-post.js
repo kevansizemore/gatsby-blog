@@ -21,7 +21,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
   if(post.frontmatter.tags && post.frontmatter.tags.length){
     postTags = post.frontmatter.tags.map((tags) => 
-    <li style={tagStyle}><Link to={`/tags/${tags}/`}>{tags}</Link></li>
+    <li style={tagStyle}><Link to={`/tags/${tags}/`}>#{tags}</Link></li>
     );
   }
 
