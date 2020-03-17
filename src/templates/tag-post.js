@@ -10,33 +10,30 @@ const Tags = ({ data, pageContext, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const { tag } = pageContext
   const { edges, totalCount } = data.allMarkdownRemark
-  const tagHeader = `${totalCount} blog article${
+  const tagHeader = `There ${
+    totalCount === 1 ? "is" : "are"
+  } ${totalCount} blog article${
     totalCount === 1 ? "" : "s"
-  } tagged with "${tag}".`
+  } tagged with: "${tag}"`
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Tag Tree"
-      />
+      <SEO title="Related Articles by Tag"/>
       <NavMenu />
       <div>
-      <h2>{tagHeader}</h2>
-      <ul>
-        {edges.map(({ node }) => {
-          const { slug } = node.fields
-          const { title } = node.frontmatter
-          return (
-            <li key={slug}><Link to={slug}>{title}</Link></li>
-          )
-        })}
-      </ul>
-      {/*
-        This links to a page that does not yet exist.
-        You'll come back to it!
-      */}
-      <Link to="/tags">View All Tags</Link>
-    </div>
-    <br />
+        <h2>{tagHeader}</h2>
+        <ul>
+          {edges.map(({ node }) => {
+            const { slug } = node.fields
+            const { title } = node.frontmatter
+            return (
+              <li key={slug}><Link to={slug}>{title}</Link></li>
+            )
+          })}
+        </ul>
+        <Link to="/tags"><strong>View All Tags</strong></Link>
+      </div>
+      <br />
       <footer>
         <Bio />
       </footer>

@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import NavMenu from "../components/nav"
 import Layout from "../components/layout"
+import Featured from "../components/featured"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
@@ -22,6 +23,9 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="Blog" />
       <NavMenu />
       <Bio />
+      <Featured />
+      <p>These are the most recent blog articles I've written. You can find more by using the search box at the top of this page, or by browsing my <Link to="/tags">Tag Index</Link>.</p>
+      <hr />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         var postTags = "-no tags-"
@@ -61,7 +65,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 15) {
       edges {
         node {
           excerpt

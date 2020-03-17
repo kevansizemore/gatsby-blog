@@ -1,12 +1,11 @@
 import React from "react"
-import PropTypes from "prop-types"
-
-// Utilities
-import kebabCase from "lodash/kebabCase"
-
-// Components
-import { Helmet } from "react-helmet"
 import { Link, graphql } from "gatsby"
+import PropTypes from "prop-types"
+import kebabCase from "lodash/kebabCase"
+import Bio from "../components/bio"
+import NavMenu from "../components/nav"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const TagsPage = ({
   data: {
@@ -15,11 +14,15 @@ const TagsPage = ({
       siteMetadata: { title },
     },
   },
+  location
 }) => (
-  <div>
-    <Helmet title={title} />
+
+  <Layout location={location} title={title}>
+    <SEO title="Tag Index" />
+    <NavMenu />
     <div>
-      <h1>Tags</h1>
+      <h2>Tag Index</h2>
+      <p>There are <strong>{group.length}</strong> tags used throughout this blog.</p>
       <ul>
         {group.map(tag => (
           <li key={tag.fieldValue}>
@@ -30,7 +33,12 @@ const TagsPage = ({
         ))}
       </ul>
     </div>
-  </div>
+    <br />
+    <footer>
+      <Bio />
+    </footer>
+  </Layout>
+  
 )
 
 TagsPage.propTypes = {
