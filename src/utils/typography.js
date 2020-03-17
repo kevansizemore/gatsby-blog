@@ -1,9 +1,9 @@
 import Typography from "typography"
 
 const typography = new Typography({
-  baseFontSize: "16px",
-  baseLineHeight: 1.5,
-  scaleRatio: 1.75,
+  baseFontSize: "18px",
+  baseLineHeight: 1.125,
+  scaleRatio: 1.5,
   headerFontFamily: [
     "Helvetica Neue",
     "Helvetica",

@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { rhythm } from "../utils/typography"
+import { rhythm, scale } from "../utils/typography"
 
 
 const Layout = ({ location, title, author, children }) => {
@@ -9,6 +9,7 @@ const Layout = ({ location, title, author, children }) => {
   header = (
     <h1
       style={{
+        ...scale(0.95),
         marginBottom: rhythm(0.1),
         marginTop: 0,
       }}
