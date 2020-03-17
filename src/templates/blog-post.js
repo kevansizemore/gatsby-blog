@@ -7,10 +7,24 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
+const tagStyle = {
+  display: "inline-block",
+  marginLeft: "0px",
+  marginBottom: "2px",
+  paddingRight: "6px"
+}
+
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
+  var postTags = "-no tags-"
+
+  if(post.frontmatter.tags && post.frontmatter.tags.length){
+    postTags = post.frontmatter.tags.map((tags) => 
+    <li style={tagStyle}><Link to={`/tags/${tags}/`}>{tags}</Link></li>
+    );
+  }
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -38,10 +52,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               marginBottom: rhythm(1),
             }}
           >
-            {post.frontmatter.date}
+            {post.frontmatter.date}<br />
+            Tagged with: <ul style={tagStyle}>{postTags}</ul>
           </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        <br />
         <footer>
           <Bio />
         </footer>
@@ -92,8 +108,9 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "YYYY-MM-DD")
         description
+        tags
       }
     }
   }
