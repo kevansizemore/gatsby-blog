@@ -4,7 +4,7 @@ import { rhythm } from "../utils/typography"
 
 const Featured = () => {
 
-const featuredTags = ["technology", "photography"]
+const featuredTags = ["photography", "technology"]
 
   return (
     <div style={{marginBottom: rhythm(1.5)}}>

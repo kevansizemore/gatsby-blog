@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql } from "gatsby"
-
 import Bio from "../components/bio"
 import NavMenu from "../components/nav"
 import Layout from "../components/layout"
