@@ -12,9 +12,9 @@ Today Apple announced the 2019 versions of the [iPad Air and iPad Mini](https://
 
 I use technology daily to care for personal and professional obligations and responsibilities.  There was a time when I planned on updating to the latest "speeds and feeds" for fear of obsolescence or some imaginary expiration date whereafter a computer/device would likely fail.  Lately, I find little compelling evidence for upgrading my desktop PCs or mobile devices every other year. I feel more comfortable holding onto things for three to five years (or longer). It is encouraging to know Apple is prolonging the availability of the accessories I use for my 10.5" Apple iPad Pro by promoting them for use with newly-released products. As an Apple customer, this adds value to my investment in their products and perhaps more importantly: it demonstrates the merit in decelerating the rate at which consumers (needlessly) upgrade to shiny new things.
 
-## Why This is Interesting
+## Interesting Implications for Me
 
-I suppose what was interesting is how the accessories designed for the iPad Pro (circa 2017) are still being promoted/used for new product releases two years later. The reason this caught my attention was that I purchased a first generation 9.7" iPad Pro (2016) and consequently, felt disappointed when the device was discontinued a year later.
+What was most interesting to me is how the accessories designed for the iPad Pro (circa 2017) are still being promoted/used for new product releases two years later. The reason this caught my attention was that I purchased a first generation 9.7" iPad Pro (2016) and consequently, felt disappointed when the device was discontinued a year later.
 
 The Apple Smart Keyboard is relatively expensive compared to some of the Bluetooth options available from third parties (e.g., Belkin, Logitech). Apple (inadvertently) diminished customer investments in (expensive) 9.7" Apple Smart Keyboards; they were not suitable for use with later versions of the iPad. While some customers found it could be used, it was not a proper fit for 10.5" iPads [https://brianrenshaw.com/2017/06/23/does-the-97-smart-keyboard-fit-the-105-ipad-pro/](https://brianrenshaw.com/2017/06/23/does-the-97-smart-keyboard-fit-the-105-ipad-pro/).
 
