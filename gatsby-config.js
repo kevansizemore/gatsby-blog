@@ -62,8 +62,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `KevanSizemore.com`,
+        short_name: `K.M.S`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
@@ -78,5 +78,39 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+        exclude: [`/bookmarks/*`],
+        query: `
+          {
+            wp {
+              generalSettings {
+                siteUrl
+              }
+            }
+  
+            allSitePage {
+              node {
+                path
+              }
+            }
+        }`,
+        resolveSiteUrl: ({site, allSitePage}) => {
+          //Alternativly, you may also pass in an environment variable (or any location) at the beginning of your `gatsby-config.js`.
+          return site.wp.generalSettings.siteUrl
+        },
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.nodes.map(node => {
+            return {
+              url: `${site.wp.generalSettings.siteUrl}${node.path}`,
+              changefreq: `daily`,
+              priority: 0.7,
+            }
+          })
+      }
+    }
+
   ],
 }
