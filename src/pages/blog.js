@@ -40,7 +40,8 @@ const BlogIndex = ({ data, location }) => {
           <article key={node.fields.slug}>
             <header style={{marginBottom: rhythm(1 / 4)}}>
               <h3 style={{marginBottom: rhythm(1 / 4)}}><Link style={{ boxShadow: `none` }} to={node.fields.slug}>{title}</Link></h3>
-              <small>{node.frontmatter.date}{' | '}~{node.timeToRead} minute(s){' | '}~{node.wordCount.words} words{' | '}Tagged with: <ul style={tagStyle}>{postTags}</ul></small><br />
+              <small>{node.frontmatter.date}{' | '}~{node.timeToRead} minute(s){' | '}~{node.wordCount.words} words</small><br />
+              <small>Tagged with: <ul style={tagStyle}>{postTags}</ul></small>
             </header>
             <section>
               <p

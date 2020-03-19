@@ -51,7 +51,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               marginBottom: rhythm(1),
             }}
           >
-            {post.frontmatter.date}{' | '}~{post.timeToRead} minute(s){' | '}~{post.wordCount.words} words{' | '}Tagged with: <ul style={tagStyle}>{postTags}</ul>
+            {post.frontmatter.date}{' | '}~{post.timeToRead} minute(s){' | '}~{post.wordCount.words} words<br />
+            Tagged with: <ul style={tagStyle}>{postTags}</ul>
           </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
