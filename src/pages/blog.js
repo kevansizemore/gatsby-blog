@@ -79,6 +79,10 @@ export const pageQuery = graphql`
             description
             tags
           }
+          timeToRead
+          wordCount {
+            words
+          }
         }
       }
     }
