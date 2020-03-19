@@ -40,12 +40,8 @@ const BlogIndex = ({ data, location }) => {
           <article key={node.fields.slug}>
             <header style={{marginBottom: rhythm(1 / 4)}}>
               <h3 style={{marginBottom: rhythm(1 / 4)}}><Link style={{ boxShadow: `none` }} to={node.fields.slug}>{title}</Link></h3>
-<<<<<<< HEAD
               <small>{node.frontmatter.date}{' | '}~{node.timeToRead} minute(s){' | '}~{node.wordCount.words} words</small><br />
               <small>Tagged with: <ul style={tagStyle}>{postTags}</ul></small>
-=======
-              <small>{node.frontmatter.date}{' | '}Tagged with: <ul style={tagStyle}>{postTags}</ul></small>
->>>>>>> parent of 342d4c7... added read time & word count to blog page/post
             </header>
             <section>
               <p

@@ -51,12 +51,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               marginBottom: rhythm(1),
             }}
           >
-<<<<<<< HEAD
             {post.frontmatter.date}{' | '}~{post.timeToRead} minute(s){' | '}~{post.wordCount.words} words<br />
             Tagged with: <ul style={tagStyle}>{postTags}</ul>
-=======
-            {post.frontmatter.date}{' | '}Tagged with: <ul style={tagStyle}>{postTags}</ul>
->>>>>>> parent of 342d4c7... added read time & word count to blog page/post
           </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
