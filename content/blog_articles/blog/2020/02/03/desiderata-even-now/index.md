@@ -5,7 +5,7 @@ description: "This is an old poem that's surprisingly relevant to life as we kno
 tags: ["reflection", "poetry"]
 ---
 
-![Winter Moon's Halo](https://lh3.googleusercontent.com/EQHxl5xeR79RPobsRNWadWrXn3fIThZyWM9BhW3Cx5hqRhy5wwM8ewqiJa9wWsHZwuu_Do5D-vWc6j2Z3MV5Rp82Od1d-UvKy0zu_2cTtAAMDS0hgtj1asO2iMWMMoZ22znIQtKBh3hmhmgNiasYhErD9vu6V1zQXGZJmAgqq3n364UbXQXc2Hmxs95ToGkyUX-I3mQ82ZccfD8ADgty-Woy2qUelROb2bWyMa1HKhX6hN4Bhi1oM7QiFZwuFHga33HM6l8xYEs7pTRgNRAq86lS0X0MrWByBBMURqBYgLh4_OtvD56Gjc54mBGJo4cYlCYlv93iy9sG3lF7cl4YnR8PUj6sqeGKWBjrdXcrI7MnY1n_u23_gbjl-8r64iEZgzGlSepklZQ2ZiK2TYrSxA2RIEPfB0nBxS-oD-4VP4piWRRG_znqf5tys_4bbmxUoFdN7jfVVM-Yeb-Zvf0PeqrKHafz2A7SB6d7XFdvf0jP5xWSoyqDGI1F4wVBnIz_GYE_FIQU_vTrfYc34HzY1AjlAX-KxcP8vkbYSHNmo1Jjy-5u0Rg-Q6veYupAT6CEcfVaxwWG3ROtpkIOdueoG5rj2aEVbxJz76MNm0HUVwF7JgfoPpmZ1FUv1obmnP8kUnwSx2gAmAUuywPNvuca5CLJwKT-BPoDiQmIJcsSngZaBtwx0JXbBqjuJi1P23bj58KWEW0yG_hzIjNghY876XzWBt1lSKc1mtNvfRM0GnkypbxpUp1MMg=w691-h921-no)
+![Winter Moon's Halo](https://kmsmedia.s3.amazonaws.com/image/2020-02-03_desiderata-even-now-hero.jpg)
 
 This is one of my favorite poems; it was first shared with me by a college professor many years ago. This was written in the 1920s by Max Ehrmann and it's surprisingly relevant to life in 2020 (and beyond). Please take a moment to read and appreciate the insights offered here.
 
@@ -39,6 +39,6 @@ And whatever your labors and aspirations, in the noisy confusion of life, keep p
 
 The Latin term *Desiderata* generally means "desired things" in English.
 
-Read more about Max Ehrmann here: [http://en.wikipedia.org/wiki/Max_Ehrmann](http://en.wikipedia.org/wiki/Max_Ehrmann)
+Read more about Max Ehrmann here: [https://en.wikipedia.org/wiki/Max_Ehrmann](https://en.wikipedia.org/wiki/Max_Ehrmann)
 
-Read more about this poem here:  [http://en.wikipedia.org/wiki/Desiderata](http://en.wikipedia.org/wiki/Max_Ehrmann)
+Read more about this poem here:  [https://en.wikipedia.org/wiki/Desiderata](https://en.wikipedia.org/wiki/Max_Ehrmann)

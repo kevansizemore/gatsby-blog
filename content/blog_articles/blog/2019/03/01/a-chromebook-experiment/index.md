@@ -5,7 +5,7 @@ description: "My initial observations and experiments with using a Chromebook in
 tags: ["technology", "chromebook"]
 ---
 
-![Writing Markdown with a Chromebook.](https://lh3.googleusercontent.com/f7HcE8SBs2OiTFv3cntiRcol5qPldE_zma4ohys4qmYep1GJiZQIbiq1U6lzSPfma3CHJvPFW3P5lrLUfSmXkVLi-Ko28yWN8OQ7Xf-VWRpYYryMor_8PqJDdoNnpkc0ddOgY2CvyZc3gMfER-eFufHEwneHMA4TgjCnM3KCeVBGQyuxJr5lbq2O55iflIjHj0F3p7noP2OjiS9vmbLglBAAmUVp7dyvwj5rhr29-FhRymCyvTKDqJJPH-1GT6SHKk2whvjH0hh696dVDFaOZ0ONoDXdJ8snO47nWSNkNmHZrOsOn6oWJqxtrF_p6SsyBLmQE82G9GpPzHz9GZmigF6AcpXE1Z5BXQlVnCAq_GSySfFb3LgvQT-0cNpwixdjFbmdqKZGbvGabY-IUlX8GiI7UHtj7g4Ugy_-2wjqnmAkrvip7RNyv4YtRaMvaCb333F8wQh_W_HJ6LPSQ-pODL6qQajjSTtaiboxfK1vYKIZ3jFILKT1CWFgdCnhkEm80KaeasebD73DbBfBo4s5IDyJFouptfovGe1_heYcwVNow86n6NnIfnhFU0caWwqJuntdv7obEYoaJ44Ju_xeUWyIVInzkKxq_ec1T1em6qdEhaWKNxzih-Qy0bT3BLto3CuiD6epef1_ImAru9gBZkzhF7MiPfJkqh5j-WRzGLTMDzrNCDK4k6ZY5-zOKR_elrZuJbuINhzTRoHAYBg-H8NatXOxFnLa5GY6NnMELJpLxFhKW9mCWA=w551-h734-no)
+![Writing Markdown with a Chromebook.](https://kmsmedia.s3.amazonaws.com/image/2019-03-01_a-chromebook-experiment-hero.jpg)
 
 My workplace switched to Google’s suite of web-based applications/services a while ago. The web-based way of working has prompted me to rethink the way I use computers, as well as how much computing power is essential for the majority of day-to-day tasks. It has been enlightening to discover how much I can do with web applications in a (relatively) secure cloud platform.
 
