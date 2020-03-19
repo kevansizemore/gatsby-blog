@@ -10,6 +10,13 @@
             "StackName": "amplify-gatsby-blog-prod-162139",
             "StackId": "arn:aws:cloudformation:us-east-1:641701194140:stack/amplify-gatsby-blog-prod-162139/3e7978a0-6a1f-11ea-8ddd-0edf444c3fff",
             "AmplifyAppId": "dbq7uf24kaax2"
+        },
+        "categories": {
+            "auth": {
+                "gatsbyBlogStorage": {
+                    "hostedUIProviderCreds": "[]"
+                }
+            }
         }
     }
 }
