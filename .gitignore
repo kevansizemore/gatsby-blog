@@ -82,3 +82,6 @@ awsconfiguration.json
 amplifyconfiguration.json
 amplify-gradle-config.json
 amplifyxc.config
+
+#git credentials for repo
+.git-repoCredentials
