@@ -1,0 +1,15 @@
+{
+	"production": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-gatsby-blog-production-224626-authRole",
+			"UnauthRoleArn": "arn:aws:iam::641701194140:role/amplify-gatsby-blog-production-224626-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::641701194140:role/amplify-gatsby-blog-production-224626-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "amplify-gatsby-blog-production-224626-deployment",
+			"UnauthRoleName": "amplify-gatsby-blog-production-224626-unauthRole",
+			"StackName": "amplify-gatsby-blog-production-224626",
+			"StackId": "arn:aws:cloudformation:us-east-1:641701194140:stack/amplify-gatsby-blog-production-224626/ff688b20-6a54-11ea-8a97-12217e59f19f",
+			"AmplifyAppId": "dbq7uf24kaax2"
+		}
+	}
+}
