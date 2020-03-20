@@ -4,11 +4,6 @@ import Bio from "../components/bio"
 import NavMenu from "../components/nav"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Amplify from "aws-amplify"
-import awsmobile from "../aws-exports.js"
-import { S3Image } from 'aws-amplify-react'
-
-Amplify.configure(awsmobile)
 
 const Bookmarks = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -19,7 +14,6 @@ const Bookmarks = ({ data, location }) => {
       <SEO title="Bookmarks" />
       <NavMenu />
       <Bio />
-      <S3Image imgKey={'2013-09-29_mount-afton-view.jpg'} />
       <h2 id="top">Bookmarks</h2>
       <p>Select a category:</p>
       <ul style={{ marginLeft: 48 }}>
