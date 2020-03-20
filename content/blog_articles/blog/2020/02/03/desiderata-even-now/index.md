@@ -41,4 +41,4 @@ The Latin term *Desiderata* generally means "desired things" in English.
 
 Read more about Max Ehrmann here: [https://en.wikipedia.org/wiki/Max_Ehrmann](https://en.wikipedia.org/wiki/Max_Ehrmann)
 
-Read more about this poem here:  [https://en.wikipedia.org/wiki/Desiderata](https://en.wikipedia.org/wiki/Max_Ehrmann)
+Read more about this poem here:  [https://en.wikipedia.org/wiki/Desiderata](https://en.wikipedia.org/wiki/Desiderata)
