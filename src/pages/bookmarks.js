@@ -5,7 +5,7 @@ import NavMenu from "../components/nav"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Amplify from "aws-amplify"
-import aws_exports from "../aws-exports.js"
+import aws_exports from "../src/aws-exports.js"
 import { S3Image } from 'aws-amplify-react'
 
 Amplify.configure(aws_exports)
