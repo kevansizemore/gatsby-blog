@@ -5,7 +5,7 @@ description: "My first published photo, courtesy of the Princeton Photography Cl
 tags: ["photography"]
 ---
 
-![Steel City at Night](https://kmsmedia.s3.amazonaws.com/image/2011-09-25_steel-city-at-night.jpg)
+![Steel City at Night](https://kmsmedia.kevansizemore.com/image/2011-09-25_steel-city-at-night.jpg)
 
 I took this photo in September of 2011 from atop Mount Washington overlooking Pittsburgh, Pennsylvania.  I rode the historic Duquesne Incline to this vantage point - definitely something worth experiencing if you're in the area.
 

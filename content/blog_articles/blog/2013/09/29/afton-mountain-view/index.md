@@ -5,7 +5,7 @@ description: "One of my favorite photos from atop Mount Afton."
 tags: ["photography"]
 ---
 
-![Mount Afton View](https://kmsmedia.s3.amazonaws.com/image/2013-09-29_mount-afton-view.jpg)
+![Mount Afton View](https://kmsmedia.kevansizemore.com/image/2013-09-29_mount-afton-view.jpg)
 
 I took this photo in September of 2013 from atop Mount Afton in Virginia; this is part of the Blue Ridge Mountains in the region.
 

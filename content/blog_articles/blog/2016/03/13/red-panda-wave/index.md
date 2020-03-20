@@ -5,7 +5,7 @@ description: "Friendliest (elusive) red panda I've ever met."
 tags: ["photography"]
 ---
 
-![Red Panda Wave](https://kmsmedia.s3.amazonaws.com/image/2016-03-13_red-panda-wave.jpg)
+![Red Panda Wave](https://kmsmedia.kevansizemore.com/image/2016-03-13_red-panda-wave.jpg)
 
 I saw this friendly critter during a trip to the Virginia Zoo with my family.  Since my visit, "Sunny" has gained notoriety for escaping the zoo, although nearby residents claim to have seen her:
 

@@ -5,7 +5,7 @@ description: "This is an old poem that's surprisingly relevant to life as we kno
 tags: ["reflection", "poetry"]
 ---
 
-![Winter Moon's Halo](https://kmsmedia.s3.amazonaws.com/image/2020-02-03_desiderata-even-now-hero.jpg)
+![Winter Moon's Halo](https://kmsmedia.kevansizemore.com/image/2020-02-03_desiderata-even-now-hero.jpg)
 
 This is one of my favorite poems; it was first shared with me by a college professor many years ago. This was written in the 1920s by Max Ehrmann and it's surprisingly relevant to life in 2020 (and beyond). Please take a moment to read and appreciate the insights offered here.
 

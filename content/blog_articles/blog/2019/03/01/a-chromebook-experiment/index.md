@@ -5,7 +5,7 @@ description: "My initial observations and experiments with using a Chromebook in
 tags: ["technology", "chromebook"]
 ---
 
-![Writing Markdown with a Chromebook.](https://kmsmedia.s3.amazonaws.com/image/2019-03-01_a-chromebook-experiment-hero.jpg)
+![Writing Markdown with a Chromebook.](https://kmsmedia.kevansizemore.com/image/2019-03-01_a-chromebook-experiment-hero.jpg)
 
 My workplace switched to Google’s suite of web-based applications/services a while ago. The web-based way of working has prompted me to rethink the way I use computers, as well as how much computing power is essential for the majority of day-to-day tasks. It has been enlightening to discover how much I can do with web applications in a (relatively) secure cloud platform.
 

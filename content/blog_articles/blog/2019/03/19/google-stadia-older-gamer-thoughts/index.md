@@ -5,7 +5,7 @@ description: "It's amazing how much video game technology has changed in my life
 tags: ["technology", "gaming", "google"]
 ---
 
-![Game Controllers and Coffee](https://kmsmedia.s3.amazonaws.com/image/2019-03-19_google-stadia-thoughts-hero.jpg)
+![Game Controllers and Coffee](https://kmsmedia.kevansizemore.com/image/2019-03-19_google-stadia-thoughts-hero.jpg)
 
 I watched some of Google's 2019 [GDC Keynote](https://www.youtube.com/watch?v=nUih5C5rOrA) broadcast, where they announced [Stadia](https://store.google.com/magazine/stadia).  If you enjoy games, what a time to be alive!  When I was young, I never imagined video games would become a multi-billion dollar industry, pursued by some of the largest technology companies in the world.
 

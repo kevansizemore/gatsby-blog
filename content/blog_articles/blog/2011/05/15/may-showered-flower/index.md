@@ -5,7 +5,7 @@ description: "The beauty of freshly fallen rain on a May flower."
 tags: ["photography"]
 ---
 
-![May Showered Flower](https://kmsmedia.s3.amazonaws.com/image/2011-05-15_may-showered-flower.jpg)
+![May Showered Flower](https://kmsmedia.kevansizemore.com/image/2011-05-15_may-showered-flower.jpg)
 
 I took this photo in May of 2011 shortly after a rainstorm near the apartment where my wife and I lived in Ewing, New Jersey.
 
