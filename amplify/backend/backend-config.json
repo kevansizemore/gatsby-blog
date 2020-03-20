@@ -1,1 +1,16 @@
-{}
+{
+	"auth": {
+		"gatsbyblog3ed33c07": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	},
+	"storage": {
+		"gatsbyblogs3": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
