@@ -12,4 +12,3 @@ Ran my death knight last knight with a couple friend and knocked down some quest
 In an unrelated story, I renamed two characters on the Stormreaver realm; my Tauren hunter is now known as "Rhostbeef" and my rogue, "Dorkfish." I will update my character profile links accordingly some time this weekend.
 
 -"Beazst"
-

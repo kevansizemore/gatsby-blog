@@ -14,6 +14,10 @@ const tagStyle = {
   paddingRight: "8px"
 }
 
+const postSummaryStyle = {
+  color: '#707070',
+}
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
@@ -24,7 +28,7 @@ const BlogIndex = ({ data, location }) => {
       <NavMenu />
       <Bio />
       <Featured />
-      <p>These are the most recent blog articles I've written. You can find more by using the search box at the top of this page, or by browsing my <Link to="/tags">Tag Index</Link>.</p>
+      <p>The 25 most recent articles I've published are listed below. You can find more by using the search box at the top of this page, or by browsing my <Link to="/tags">Tag Index</Link>. If you're curious, here are some <Link to="/blogstats">quick stats</Link> about my blog.</p>
       <hr />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
@@ -40,8 +44,8 @@ const BlogIndex = ({ data, location }) => {
           <article key={node.fields.slug}>
             <header style={{marginBottom: rhythm(1 / 4)}}>
               <h3 style={{marginBottom: rhythm(1 / 4)}}><Link style={{ boxShadow: `none` }} to={node.fields.slug}>{title}</Link></h3>
-              <small>{node.frontmatter.date}{' | '}~{node.timeToRead} minute(s){' | '}~{node.wordCount.words} words</small><br />
-              <small>Tagged with: <ul style={tagStyle}>{postTags}</ul></small>
+              <small style={postSummaryStyle}>{node.frontmatter.date}{' | '}~{node.timeToRead} minute(s){' | '}~{node.wordCount.words} words</small><br />
+              <small style={postSummaryStyle}>Tagged with: <ul style={tagStyle}>{postTags}</ul></small>
             </header>
             <section>
               <p
@@ -59,6 +63,7 @@ const BlogIndex = ({ data, location }) => {
 
 export default BlogIndex
 
+
 export const pageQuery = graphql`
   query {
     site {
@@ -66,7 +71,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 15) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 25) {
       edges {
         node {
           excerpt

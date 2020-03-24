@@ -39,7 +39,7 @@ const Bio = () => {
   const { author, social } = data.site.siteMetadata
 
   const authSumStyle = {
-    color: '#808080'
+    color: '#707070'
   }
 
   return (

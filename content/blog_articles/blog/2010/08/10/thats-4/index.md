@@ -14,4 +14,3 @@ In the back of my mind the question looms: which character will I grind to 80 ne
 Until next time, hope to see you online!
 
 -"Beazst"
-

@@ -20,4 +20,3 @@ Cataclysm will be released on December 7th and I have already pre-ordered 2 copi
 Happy gaming & I hope to see you online!
 
 -"Beazst"
-
