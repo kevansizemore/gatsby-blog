@@ -28,4 +28,3 @@ Time will tell. Too bad you can't play WoW on †the iPad (yet). But then again,
 Until next time...
 
 -"Beazst"
-

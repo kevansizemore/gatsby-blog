@@ -9,9 +9,9 @@ What a weekend! I cannot remember the last time I logged so many hours in two da
 
 ### Possible Fix
 
-Here goes... it's not pretty, it will cost you some gold, but it worked for me. :) 
+Here goes... it's not pretty, it will cost you some gold, but it worked for me. :)
 
-**Step 1: Reset Your Interface.** With the game closed please try moving or deleting your WTF, CACHE, and INTERFACE folders out of your World of Warcraft directory. These are temporary cache files that will be recreated by the game the next time you launch. Moving them to the desktop makes it easy to replace them if necessary. 
+**Step 1: Reset Your Interface.** With the game closed please try moving or deleting your WTF, CACHE, and INTERFACE folders out of your World of Warcraft directory. These are temporary cache files that will be recreated by the game the next time you launch. Moving them to the desktop makes it easy to replace them if necessary.
 
 *Please also note these folders contain your saved macros and UI addons. By moving or deleting these folders you will also remove any saved preferences, UI addons, or macros you may have added.*
 
@@ -24,4 +24,3 @@ Here goes... it's not pretty, it will cost you some gold, but it worked for me. 
 That's it! It worked for me - hopefully this will help resolve your talent issues as well.
 
 -"Beazst"
-

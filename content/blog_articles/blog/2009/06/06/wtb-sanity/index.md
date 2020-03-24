@@ -22,4 +22,3 @@ Speaking of professions - I also ditched some crafting professions and leveled u
 Well, that's all for now. Happy Hunting!
 
 -"Beazst"
-

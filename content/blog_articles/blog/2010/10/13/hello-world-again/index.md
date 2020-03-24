@@ -10,4 +10,3 @@ I've moved the **Beazst Board** blog content to Wordpress as Microsoft has decid
 Cheers.
 
 -"Beazst"
-

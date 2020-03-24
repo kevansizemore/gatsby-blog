@@ -8,4 +8,3 @@ tags: ["updates", "gaming"]
 I will be unplugged for the next few days so don't worry if you don't see me online. Taking some time to relax and recharge.  =)
 
 -"Beazst"
-

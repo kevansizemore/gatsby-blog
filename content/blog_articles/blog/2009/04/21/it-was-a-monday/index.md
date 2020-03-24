@@ -10,4 +10,3 @@ Usually Mondays are a great day for me but this one just seemed to be a drain fr
 Hopefully things will be better tomorrow and maintenance/patch day won't bring down the servers. Again.
 
 -"Beazst"
-

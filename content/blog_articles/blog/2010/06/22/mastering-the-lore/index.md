@@ -16,4 +16,3 @@ For the record, I ended up getting an iPad. "Resistance is futile!"
 Hope to see you online. Cheers!
 
 -"Beazst"
-

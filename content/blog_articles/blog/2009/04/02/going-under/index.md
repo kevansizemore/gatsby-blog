@@ -12,4 +12,3 @@ I also checked the mail across all my characters; turns out I had a little over 
 Enough fun for one night; ciao!
 
 -"Beazst"
-

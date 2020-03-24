@@ -12,4 +12,3 @@ In an unrelated story‚ I finally updated my web site so that all my character 
 Until next time...
 
 -"Beazst"
-

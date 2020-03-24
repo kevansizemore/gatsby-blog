@@ -9,6 +9,6 @@ As fate would have it, gaming without Microsoft Windows is a real pain. So I bro
 
 Update: Actually, Windows XP is incapable of leveraging what this system can do. So I upgraded to Windows 7 Professional 64-Bit edition. (Insert computer nerd joke here.)
 
-Hope to see you online...	
--"Beazst"
+Hope to see you online...
 
+-"Beazst"
