@@ -28,7 +28,7 @@ const BlogIndex = ({ data, location }) => {
       <NavMenu />
       <Bio />
       <Featured />
-      <p>These are the most recent blog articles I've written. You can find more by using the search box at the top of this page, or by browsing my <Link to="/tags">Tag Index</Link>.</p>
+      <p>The 25 most recent articles I've published are listed below. You can find more by using the search box at the top of this page, or by browsing my <Link to="/tags">Tag Index</Link>. If you're curious, here are some <Link to="/blogstats">quick stats</Link> about my blog.</p>
       <hr />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
@@ -63,6 +63,7 @@ const BlogIndex = ({ data, location }) => {
 
 export default BlogIndex
 
+
 export const pageQuery = graphql`
   query {
     site {
@@ -70,7 +71,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 15) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 25) {
       edges {
         node {
           excerpt
