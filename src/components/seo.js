@@ -60,12 +60,6 @@ const SEO = ({ description, lang, meta, title }) => {
           name: `twitter:description`,
           content: metaDescription,
         },
-        if (site.siteMetadata.title = "Bookmarks") {
-          {
-            name: `robots`,
-            content: `noindex`,
-          },
-        }
       ].concat(meta)}
     />
   )
