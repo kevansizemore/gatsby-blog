@@ -26,7 +26,7 @@ const Search = () => {
     <form method = "get" title = "Search" action="https://cse.google.com/cse/publicurl">
     <div style={searchStyle}>
       <input style={searchInputStyle} type="text" id="q" name="q" placeholder=" Search this site with Google..." alt="Search Text" maxlength="256" />{' '}
-      <input type="hidden" id="cx" name="cx" value="009563826252003440557:o77rah8y4ct" />
+      <input type="hidden" id="cx" name="cx" value="partner-pub-3687489269179609:bjudhzzgfly" />
       <input type="submit" style={searchButtonStyle} value="Search" />
     </div>
    </form>
