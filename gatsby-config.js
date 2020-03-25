@@ -58,7 +58,6 @@ module.exports = {
         trackingId: `UA-23498318-1`,
       },
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -142,7 +141,7 @@ module.exports = {
       resolve: `gatsby-plugin-sitemap`,
       options: {
         output: `/sitemap.xml`,
-        exclude: [`/bookmarks/`],
+        exclude: [`/bookmarks/`,`/tags/`],
       }
     },
   ],
