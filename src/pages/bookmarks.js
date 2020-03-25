@@ -1,4 +1,5 @@
 import React from "react"
+import {Helmet} from "react-helmet";
 import { graphql } from "gatsby"
 import Bio from "../components/bio"
 import NavMenu from "../components/nav"
@@ -11,6 +12,9 @@ const Bookmarks = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle} author={authorName}>
+      <Helmet>
+        <meta name="robots" content="noindex">
+      </Helmet>
       <SEO title="Bookmarks" />
       <NavMenu />
       <Bio />
