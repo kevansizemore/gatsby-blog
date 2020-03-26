@@ -13,7 +13,7 @@ I keep hearing about [automation](https://www.relay.fm/automators) from clever A
 
 At first, I tried to tackle the problem with [Automator](https://support.apple.com/guide/automator/welcome/mac), using the built-in 'Scale Images' action, as well as the [Pixelmator Pro](https://www.pixelmator.com/pro/) 'Scale Images' action. In the case of the built-in action, I could specify the target size in pixels, but I could not indicate which *dimension* (e.g., width, height) to target. In the case of the Pixelmator Pro action, I had to specify both dimensions.
 
-![Automator Scale Images Actions](https://kmsmedia.s3.amazonaws.com/image/2020-03-25_imageAutoOpt-2.png)
+![Automator Scale Images Actions](https://kmsmedia.kevansizemore.com/image/2020-03-25_imageAutoOpt-2.png)
 
 **Houston, we have a problem.** My blog allows a maximum width of 600 pixels for content; this provides a balanced experience for visitors using either a small mobile screen or a large desktop display. Consequently, my images should be no more than 600 pixels wide. Automator's built-in 'Scale Images' action targets the longest dimension of the incoming file. If you use this action to resize a [portriat-orientatation image](https://kevansizemore.com/blog/2016/03/13/red-panda-wave/), it will reduce the height to 600 pixels and the width to a minuscule dimension.
 
@@ -45,17 +45,17 @@ You're probably familiar with **Dropbox** (a cross-platform cloud storage provid
 
 **1. Create two folders in Dropbox.** The first folder is where you'll place images that need optimization. The second folder is where the resized images will appear post-processing. For example:
 
-![Dropbox Folder Names](https://kmsmedia.s3.amazonaws.com/image/2020-03-25_imageAutoOpt-1.png)
+![Dropbox Folder Names](https://kmsmedia.kevansizemore.com/image/2020-03-25_imageAutoOpt-1.png)
 
 Perhaps the most significant benefit of using Dropbox folders is it provides access to the automated image optimizer from mobile devices and non-Apple devices. This solution *does* require a running Mac, connected to the Internet, so **Hazel** and **sips** can carry out the work and place the resulting images in the "output" folder. Additionally, while Dropbox is not a backup service, it provides some peace of mind by letting you restore earlier versions of the (original) image files in case something unexpected happens.
 
 **2. Create the Hazel rules.** Hazel processes rules for folders in the order listed. Keep in mind, given the requirements to avoid harming original image files and only resize images exceeding the target width.
 
-![Hazel Rules to Process Images](https://kmsmedia.s3.amazonaws.com/image/2020-03-25_imageAutoOpt-3.png)
+![Hazel Rules to Process Images](https://kmsmedia.kevansizemore.com/image/2020-03-25_imageAutoOpt-3.png)
 
 The first rule identifies images at or below the target width (in my case, 600 pixels). Then, it applies the 'imageBotIgnored' tag to them. This tag prevents the second Hazel rule from attempting to process the file with **sips**. The tag also indicates the first Hazel rule has finished considering the file.
 
-![First Hazel Rule - Ignore Images At or Below Target Width](https://kmsmedia.s3.amazonaws.com/image/2020-03-25_imageAutoOpt-4.png)
+![First Hazel Rule - Ignore Images At or Below Target Width](https://kmsmedia.kevansizemore.com/image/2020-03-25_imageAutoOpt-4.png)
 
 The conditions for the first rule are as follows:
 
@@ -70,7 +70,7 @@ The action for the first rule is as follows:
 
 Presuming an image clears the first rule, it moves on to the second rule, which performs the resizing. The conditions are similar to the first rule, except this rule selects images exceeding the target width.
 
-![Second Hazel Rule - Resize Images Above Target Width](https://kmsmedia.s3.amazonaws.com/image/2020-03-25_imageAutoOpt-5.png)
+![Second Hazel Rule - Resize Images Above Target Width](https://kmsmedia.kevansizemore.com/image/2020-03-25_imageAutoOpt-5.png)
 
 The conditions for the second rule are as follows:
 
@@ -108,7 +108,7 @@ If you'd like to create an automation recipe similar to this, but for images wit
 
 When it's working right, Hazel applies these rules, in order, to each of the images placed in the "input" folder and only places resized images in the "output" folder:
 
-![Hazel and SIPS Automated Image Resizing Results](https://kmsmedia.s3.amazonaws.com/image/2020-03-25_imageAutoOpt-6.png)
+![Hazel and SIPS Automated Image Resizing Results](https://kmsmedia.kevansizemore.com/image/2020-03-25_imageAutoOpt-6.png)
 
 Every image in the "input" folder has either an 'ignored' or 'processed' tag. The resized image files are smaller, which is the primary objective of size optimization.
 
