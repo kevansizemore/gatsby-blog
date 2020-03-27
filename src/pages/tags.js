@@ -31,6 +31,8 @@ const TagsPage = ({
       </ul>
     </div>
     <br />
+      <p><Link to="/blog">Return to Blog</Link></p>
+    <br />
     <footer>
       <Bio />
     </footer>
