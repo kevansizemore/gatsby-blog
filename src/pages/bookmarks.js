@@ -1,9 +1,9 @@
 import React from "react"
+import Helmet from "react-helmet"
 import { graphql } from "gatsby"
 import Bio from "../components/bio"
 import NavMenu from "../components/nav"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 
 const Bookmarks = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -11,7 +11,13 @@ const Bookmarks = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle} author={authorName}>
-      <SEO title="Bookmarks" />
+      <div>
+        <Helmet>
+            <meta name="robots" content="noindex" />
+            <meta charSet="utf-8" />
+            <title>Bookmarks</title>
+        </Helmet>
+      </div>
       <NavMenu />
       <Bio />
       <h2 id="top">Bookmarks</h2>
