@@ -28,7 +28,10 @@ const BlogIndex = ({ data, location }) => {
       <NavMenu />
       <Bio />
       <Featured />
-      <p>The 25 most recent articles I've published are listed below. You can find more by using the search box at the top of this page, or by browsing my <Link to="/tags">tag index</Link>. Do you prefer using RSS to follow blogs? I've got <a href="../rss.xml">a feed for you</a>. Lastly, I have compiled some high-level <Link to="/blogstats">blog statistics</Link> if you're curious. Thanks for visiting and I hope you find an article you like.</p>
+      <p>The <strong>25</strong> most recent articles I've published are listed below. You can find more by using the <a href="https://cse.google.com/cse?cx=partner-pub-3687489269179609%3Abjudhzzgfly" target="_blank" rel="noopener noreferrer">Google Custom Search</a> for my site, or by browsing my <Link to="/tags">tag index</Link>.</p>
+      <p>Do you prefer using an <strong>RSS reader</strong> to follow blogs? I've got <a href="../rss.xml">a feed for you</a>.</p>
+      <p>I've compiled some high-level <Link to="/blogstats">blog statistics</Link> if you're curious.</p>
+      <p>I hope you find at least 1 helpful (<em>and enjoyable</em>) article.</p>
       <hr />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
