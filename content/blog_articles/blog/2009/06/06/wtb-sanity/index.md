@@ -9,7 +9,7 @@ I suppose it's easy to lose track of time when you're having fun - or when you'r
 
 So what's new with my gamer life...
 
-I dumped my Sony subscription to EQII / Vanguard. They're fun games, however I've come to the conclusion that I will never experience all the content WoW has to offe, nor will I fully develop my characters unless I choose a single game to focus on. Of all the MMO games I've played, most of my time is invested in WoW and given all the new content added in the WotLK expansion, I don't forsee running out of things to do.
+I dumped my Sony subscription to EQII / Vanguard. They're fun games, however I've come to the conclusion that I will never experience all the content WoW has to offer, nor will I fully develop my characters unless I choose a single game to focus on. Of all the MMO games I've played, most of my time is invested in WoW and given all the new content added in the WotLK expansion, I don't forsee running out of things to do.
 
 So there you have it - it's either WoW or Xbox Live for me.
 

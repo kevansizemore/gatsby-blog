@@ -11,7 +11,7 @@ Been a little busy with moving and other things in real life. Forgot to post in 
 
 Well, Aion was different but I have stopped playing. None of the people I know IRL play anymore and while the game is "pretty" and a little different concept than other MMO games, I have since reverted back to playing WoW.
 
-Which leads to the next chapter.... guild drama!
+Which leads to the next chapter... guild drama!
 
 I discovered that everyone I liked in my horde guild jumped ship due to some highly inappropriate behavior. As such I have recently switched guilds, and joined "Live and Let Die" as of last night. By the way, if anyone in the old guild Strength In Numbers (SlN) guild would like to buy the "slnguild.org" domain, let me know. It was nice to chat with some friends I hadn't heard from in a while.
 
@@ -23,7 +23,7 @@ Apple's highly anticipated iPad went on sale today. I didn't order one - I'm sti
 
 Currently I have an iPod Touch, a Macbook Pro (my Primary PC), an SSD-based Ubuntu Linux netbook, and a geeked-out Windows 7 gaming rig I share with my spouse. If I did get one, it would probably replace my netbook.
 
-Time will tell. Too bad you can't play WoW on †the iPad (yet). But then again, MMO + couch is probably not a good thing. I hope all is well with anyone that reads this.
+Time will tell. Too bad you can't play WoW on the iPad (yet). But then again, MMO + couch is probably not a good thing. I hope all is well with anyone that reads this.
 
 Until next time...
 
