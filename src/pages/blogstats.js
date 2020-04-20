@@ -38,8 +38,8 @@ const BlogIndex = ({ data, location }) => {
         <li>This blog has {new Intl.NumberFormat("en-US").format(articleCount)} articles total. In aggregate, these articles have:</li>
         <ul>
           <li>{new Intl.NumberFormat("en-US").format(totalWordCount)} words</li>
-          <li>{new Intl.NumberFormat("en-US").format(totalSentenceCount)} sentences</li>
-          <li>{new Intl.NumberFormat("en-US").format(totalParagraphCount)} paragraphs</li>
+          <li>{new Intl.NumberFormat("en-US").format(totalSentenceCount)} sentences (~{parseFloat(totalWordCount/totalSentenceCount).toFixed(1)} words per sentence)</li> 
+          <li>{new Intl.NumberFormat("en-US").format(totalParagraphCount)} paragraphs (~{parseFloat(totalSentenceCount/totalParagraphCount).toFixed(1)} sentences per paragraph)</li>
         </ul>
         <br />
         <li>If you tried to read all of the entries in this blog, it would take ~{totalReadTime} minutes, depending on how quickly you read.</li>
