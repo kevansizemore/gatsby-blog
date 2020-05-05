@@ -11,7 +11,7 @@ Approximately [one year ago](https://kevansizemore.com/blog/2019/03/01/a-chromeb
 
 ## Things that worked well
 
-Google positions the Chromebook as "[ a computer that is smart, secure and ready when you are](https://www.google.com/chromebook/)" on their web site. For the most part, I found this to be true. The hardware and software of my Chromebook seemed to work well together for typical use cases (e.g., Internet access, web-based applications, Android apps). The device started quickly, had great battery life, maintenance & updates were painless, and it was indeed "ready" (so long as WiFi was available).
+Google positions the Chromebook as "[a computer that is smart, secure and ready when you are](https://www.google.com/chromebook/)" on their web site. For the most part, I found this to be true. The hardware and software of my Chromebook seemed to work well together for typical use cases (e.g., Internet access, web-based applications, Android apps). The device started quickly, had great battery life, maintenance & updates were painless, and it was indeed "ready" (so long as WiFi was available).
 
 The way Asus designed the C302CA positively impacted my experiences with this Chromebook. It's certainly much smaller and lighter than the laptop I have now, which encouraged keeping the device with me when I moved around the house or went out to run errands. It was highly portable and by no means a "burden" to carry. The "flip" design made it easy to switch modalities based on what I was doing. For keyboard-centric productive work: conventional laptop (clamshell) configuration with a handy backlit-keyboard. For interactive touch-based content or experiences: tablet mode. For passive content consumption (e.g., watching a movie or a webconference): tent or presentation mode. The hinge was sturdy, and switching from one modality to the next was effortless.
 
@@ -26,4 +26,3 @@ The other predicament I noticed after using the Chromebook a while was the incon
 ## Conclusion
 
 In the end, I learned quite a bit about the Chromebook from this experiment. I have a great deal of respect for how well Google's Chrome OS works and a clearer understanding of suitable user demographics for this device. Chromebooks are highly capable computers. I have no reservations about recommending it to either middle or high school students. It's also an excellent fit for individuals who need occasional access to a "real computer" but prefer to use their smartphone or tablet. If you're looking for a computer that offers substantial value for casual work and play, the Chromebook is ideal (*if* you've got reliable access to WiFi Internet).
-
