@@ -37,7 +37,6 @@ const BlogIndex = ({ data, location }) => {
         <li><a href="https://www.reddit.com/user/CanonicalBacon/" target="_blank" rel="noopener noreferrer">Reddit</a></li>
         <li><a href="https://stackoverflow.com/users/11252720/kevan-sizemore" target="_blank" rel="noopener noreferrer">Stack Overlow</a></li>
         <li><a href="https://www.strava.com/athletes/13849643" target="_blank" rel="noopener noreferrer">Strava</a></li>
-        <li><a href="https://twitter.com/kevansizemore" target="_blank" rel="noopener noreferrer">Twitter</a></li>
         <li><a href="https://vimeo.com/kevansizemore" target="_blank" rel="noopener noreferrer">Vimeo</a></li>
         <li><a href="https://www.youtube.com/user/kevansizemore" target="_blank" rel="noopener noreferrer">YouTube</a></li>
       </ul>
