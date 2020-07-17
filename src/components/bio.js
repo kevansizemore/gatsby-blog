@@ -66,8 +66,7 @@ const Bio = () => {
         Written by <strong>{author.name}</strong>.<br />
         <span style={authSumStyle}>{author.summary}</span><br />
         <a href={`mailto:${social.email}`} target="_blank" rel="noopener noreferrer">@email</a>{' | '}
-        <a href={`https://www.linkedin.com/in/${social.linkedin}/`} target="_blank" rel="noopener noreferrer">@LinkedIn</a>{' | '}
-        <a href={`https://twitter.com/${social.twitter}`} target="_blank" rel="noopener noreferrer">@Twitter</a>
+        <a href={`https://www.linkedin.com/in/${social.linkedin}/`} target="_blank" rel="noopener noreferrer">@LinkedIn</a>
       </p>
     </div>
   )
