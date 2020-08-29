@@ -1,7 +1,7 @@
 ---
 title: "The Dream Remains Unfulfilled"
 date: "2020-08-28"
-description: "When I think about the (lack of) progress our country has made since the 1963 March of Washington for Jobs and Freedom, it is clear Dr. King's dream remains unfulfilled."
+description: "When I think about the (lack of) progress our country has made since the 1963 March on Washington for Jobs and Freedom, it is clear Dr. King's dream remains unfulfilled."
 tags: ["racism"]
 ---
 
