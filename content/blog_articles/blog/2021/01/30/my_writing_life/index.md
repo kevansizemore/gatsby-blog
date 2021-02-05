@@ -15,7 +15,7 @@ Maybe you've heard rumors. Perhaps you've suspected it all along. It would seem 
 
 I didn't know I was a writer until something remarkable happened. It began with my tenth-grade high school English teacher and continued in later years with my college English professor and others. With noticeable regularity, I received unsolicited affirmation of my writing skills and encouragement to continue the craft.
 
-Eventually, I accepted that I could write reasonably well, and not everyone can. I'm not suggesting that I'm better than anyone else. Instead, I've come to understand that my brain digests information in ways that resonate with the writing process. 
+Eventually, I accepted that I could write reasonably well, and not everyone can. I'm not suggesting that I'm better than anyone else. What I'm trying to convey is my brain digests information in ways that resonate with the writing process. 
 
 In earnest, writing is not something I've always enjoyed. There are plenty of incidents that compelled me to write something I would rather not, particularly in academic contexts or as part of my day-to-day professional work. Were it not for deadlines coupled with costly consequences, most of this compulsory writing would not occur.
 
@@ -51,7 +51,7 @@ My published works include any formal writing I've done throughout my academic, 
 
 #### 5. Correspondance
 
-Another type of writing I do often is correspondence with family, friends, church members, coworkers, club members, and so forth. Far and away, most of the messages I send are composed and delivered electronically through email, text messages, or text-based collaboration platforms (e.g., Slack, Discord, IRC).  One of my writing aspirations is to use analog tools more often (fountain pens & manual typewriters) when corresponding with others. The personal card or letter seems less common in recent years; I find it delightful when something hand-crafted (instead of mass-produced) arrives in the mail.
+Another type of writing I do often is correspondence with family, friends, church members, coworkers, club members, and so forth. Far and away, most of the messages I send are composed and delivered electronically through email, text messages, or text-based collaboration platforms (e.g., Slack, Discord, IRC).  One of my writing aspirations is to use analog tools (fountain pens & manual typewriters) more often when corresponding with others. The personal card or letter seems less common in recent years; I find it delightful when something hand-crafted (instead of mass-produced) arrives in the mail.
 
 #### 6. Other Kinds of Writing
 
