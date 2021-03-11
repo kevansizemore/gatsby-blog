@@ -2,7 +2,7 @@
 title: "Games at Work"
 date: "2010-01-31"
 description: "Some thoughts on David Allen's notions of the game of work and business of life."
-tags: ["books", "reflections"]
+tags: ["books", "reflection"]
 ---
 
 ![Game Dice](https://kmsmedia.kevansizemore.com/image/2010-01-31_games-at-work-hero.jpg)
