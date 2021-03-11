@@ -23,16 +23,16 @@ Bonnie was preceded in death by her parents Rodney Earl Byer and Lee Ella Elling
 
 Bonnie's family will celebrate her life at a private service in Covington. The family welcomes cards, letters, or phone calls; instead of sending flowers, please consider donating in Bonnie's memory to either of the following: 
 
-Liberty Baptist Church Choir
-1021 Big Bethel Rd.
-Hampton, VA 23666
-(757) 826-2110
+Liberty Baptist Church Choir<br/>
+1021 Big Bethel Rd.<br/>
+Hampton, VA 23666<br/>
+(757) 826-2110<br/>
 [https://libertylive.church](https://libertylive.church)
 
-Suffolk Humane Society
-412 Kings Fork Rd.
-Suffolk, VA 23434
-(757) 538-3030
+Suffolk Humane Society<br/>
+412 Kings Fork Rd.<br/>
+Suffolk, VA 23434<br/>
+(757) 538-3030<br/>
 [https://www.suffolkhumanesociety.com](https://www.suffolkhumanesociety.com)
 
 Online condolences may be registered at: [https://www.littlesfuneralhome.com/obituary/bonnie-sizemore](https://www.littlesfuneralhome.com/obituary/bonnie-sizemore)
